@@ -1,5 +1,5 @@
 html {
-
+  font-family: Raleway, sans-serif;
 }
 
 img {
@@ -10,9 +10,15 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: #d1dabd;
+  color: #000;
+}
+
 .skip-links a {
   position: absolute;
   top: -3em;
+  margin: 0;
 }
 
 .skip-links a:focus {
@@ -29,15 +35,29 @@ a {
 }
 
 a:hover {
-  color: #fff;
+  color: #f2ffd4;
   transition: all .4s linear;
 }
 
 .name:hover {
-  color: #c92500;
+  color: #618c00;
+}
+
+.banner {
+  position: relative;
+  color: #fff;
 }
 
 li {
   list-style-type: none;
   display: inline-block;
+}
+
+ol {
+  margin-bottom: 0;
+  margin-right: 1rem;
+}
+
+p {
+  font-family: Crimson-Text, serif;
 }
