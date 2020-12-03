@@ -13,20 +13,18 @@ body {
 header {
   background-color: #d1dabd;
   color: #000;
+  padding: 0;
+  text-align: center;
 }
 
 .skip-links a {
   position: absolute;
   top: -3em;
+}
+
+.skip-links {
   margin: 0;
-}
-
-.skip-links a:focus {
-  top: 0;
-}
-
-.nav a {
-  text-decoration: none;
+  padding: 0;
 }
 
 a {
@@ -48,6 +46,10 @@ a:hover {
   color: #fff;
 }
 
+h1 {
+  margin-top: 0;
+}
+
 li {
   list-style-type: none;
   display: inline-block;
@@ -55,7 +57,15 @@ li {
 
 ol {
   margin-bottom: 0;
-  margin-right: 1rem;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
 }
 
 p {
