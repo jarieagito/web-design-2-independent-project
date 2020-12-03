@@ -44,8 +44,8 @@ header {
 
 .btn {
   display: inline-block;
-  background-color: #A0B17B;
-  border-color: #A0B17B;
+  background-color: #a0b17b;
+  border-color: #a0b17b;
   color: #fff;
   padding: 1rem;
   border-radius: 8px;
@@ -53,7 +53,7 @@ header {
 
 .btn:hover {
   background-color: #d1dabd;
-  color: #79855E;
+  color: #79855e;
 }
 
 a {
