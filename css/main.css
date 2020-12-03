@@ -44,16 +44,17 @@ header {
 
 .btn {
   display: inline-block;
-  background-color: #a0b17b;
-  border-color: #a0b17b;
+  background-color: #46502f;
+  border-color: #46502f;
   color: #fff;
   padding: 1rem;
   border-radius: 8px;
+  font-weight: bold;
 }
 
 .btn:hover {
-  background-color: #d1dabd;
-  color: #79855e;
+  background-color: #fff;
+  color: #000;
 }
 
 a {
