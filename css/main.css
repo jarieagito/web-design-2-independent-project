@@ -48,7 +48,7 @@ a {
 }
 
 a:hover {
-  color: #f2ffd4;
+  color: #fff;
   transition: all .4s linear;
 }
 
@@ -91,6 +91,29 @@ p {
 .banner-content {
   background-color: #d1dabd;
   color: black;
+}
+
+.content {
+  display: inline-block;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+  max-width: 50em;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.open {
+  display: block;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.tropical {
+  background-color: #e9e1cc;
+  padding: 1rem;
 }
 
 footer {
